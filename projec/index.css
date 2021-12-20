@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.p1{
+    font-weight: 400;
+    color:white;
+    font-size: large;
+}
+.h2{
+    color:yellowgreen;
+    text-shadow: 5px 4px 7px black;
+    
+
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.7s;
+}
+.marriot{
+    color: aqua;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.marriot span{
+    color: whitesmoke;
+}
+.hotel{
+    display: flex;
+    position: relative;
+
+}
+.hotel li{
+    list-style: none;font-family: "Bauhaus 93",sans-serif;
+}
+.hotel a{
+    text-decoration: none;
+    color: white;
+    margin-left:25px ;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: right;
+
+}
+.head{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(IMGPRO/marriot.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.head .doc{
+    max-width: 70%;
+    text-align: center;
+}
+.head .doc h2{
+    color:rgb(127, 161, 224);
+    font-size: 3em;
+    text-transform: capitalize;
+
+
+}
+ 
+input,textarea,button{
+    border:none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px;
+    font-size: 1.2em;
+    font-family: 'Advent Pro',sans-serif;
+    border-radius: 8px;
+
+}
+textarea{
+    height: 120px;
+}
+.q1{
+    font-size: 1em;
+    color: black;
+    background-color: aqua;
+    display: inline-block;
+    font-family: "Algerian",sans-serif;
+
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 3px 2px 1px 1.5px;
+}
+.q2{
+    font-size: 1em;
+    font-family: "Algerian",sans-serif;
+    color: black;
+    background-color:white;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    transition: 0.5s;
+    margin-left: 10px;
+    border-radius: 3px 2px 1px 1.5px;
+    
+}
+
+
+.image
+{
+    height: 168px;
+    width: 300px;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 30px 15px 30px 15px;
+}
+.maclass
+{
+    margin: 2em;
+    text-decoration: none;
+    
+}
+
+li
+{
+    display: inline;
+    padding: 1em;
+    
+}
+ 
+
+     
+#page2
+{
+    background-color: rgb(192, 240, 248);
+}
+    
+#section1 li
+{
+    
+text-align: right; 
+ /* //arangement dans la premiere  section */
+
+display:inline;
+}
+
+#section1 ul
+{
+    
+    list-style-type: none;
+    
+}
+
+
+#page2 p
+{
+    margin: 1em;
+}
+
+#section1
+{
+    background-color: aqua fixed;
+
+}
+#input{
+    background-color: lightgray;
+}
+#input #pe{
+    color: blue;
+    text-transform: uppercase;
+}
+#image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+#piscine img{
+    height: 300px;
+    width: 500px;
+}
+
+#reunion img{
+    width: 500px;
+     height: 300px;
+     float: right;
+}
+
+footer
+{
+    text-align: right;
+}
